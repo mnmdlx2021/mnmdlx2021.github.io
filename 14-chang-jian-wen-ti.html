@@ -169,6 +169,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.3.3" data-path="12-bpm/chu-zi-ren-guan-li.html">
+            
+                <a href="12-bpm/chu-zi-ren-guan-li.html">
+            
+                    
+                    1.2.3 出资人管理
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -245,8 +258,31 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><b></b>&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;</a></li></ul></div><a href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><a name="&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;" class="plugin-anchor" href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;</h1>
-<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><b></b>&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;</a></li><ul><li><span class="title-icon "></span><a href="#1-javascript"><b></b>1. javascript</a></li><ul><li><span class="title-icon "></span><a href="#11-dw-&#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219;-&#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;"><b></b>1.1 DW &#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219; &#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#12"><b></b>1.2</a></li></ul></ul></ul></div><a href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><a name="&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;" class="plugin-anchor" href="#&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x65E5;&#x5E38;&#x95EE;&#x9898;&#xFF1A;</h1>
+<h2 id="1-javascript"><a name="1-javascript" class="anchor-navigation-ex-anchor" href="#1-javascript"><i class="fa fa-link" aria-hidden="true"></i></a><a name="1-javascript" class="plugin-anchor" href="#1-javascript"><i class="fa fa-link" aria-hidden="true"></i></a>1. javascript</h2>
+<h3 id="11-dw-&#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219;-&#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;"><a name="11-dw-&#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219;-&#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#11-dw-&#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219;-&#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="11-dw-&#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219;-&#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;" class="plugin-anchor" href="#11-dw-&#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219;-&#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1 DW &#x6839;&#x636E;&#x67D0;&#x4E2A;&#x89C4;&#x5219; &#x6253;&#x5F00;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x5355;&#xFF1F;</h3>
+<pre><code>function openUrl(){
+var DW_NATURE= getGridFieldValue(rowData,&apos;NATURE&apos;); 
+if(DW_NATURE==null){ DW_NATURE= &apos;&apos;}
+    var khlx = DW_NATURE;
+    var DW_BINDID = getGridFieldValue(rowData, &apos;BINDID&apos;);
+if (DW_BINDID == null) {
+    DW_BINDID = &apos;&apos;
+}
+    var openState=1;
+    var uid = $(&quot;input[name=uid]&quot;).val();      
+    if (khlx == &apos;&#x81EA;&#x7136;&#x4EBA;&apos; &amp;&amp; khlx != null &amp;&amp; khlx != &apos;&apos; &amp;&amp; DW_BINDID != null &amp;&amp; 
+    DW_BINDID != &apos;&apos;){ 
+    var url = &quot;./w?sid=&quot; + $(&quot;#sid&quot;).val() + 
+    &quot;&amp;cmd=CLIENT_BPM_FORM_MAIN_PAGE_OPEN&amp;processInstId=&quot; + DW_BINDID + 
+    &quot;&amp;openState=&quot;+openState+&quot;&amp;taskInstId=0&amp;formDefId=4216160c-906c-4c23-
+    a785-526cacc331dc&quot;;
+    window.open(url);
+} else if (khlx==&apos;&#x673A;&#x6784;&apos;  &amp;&amp; khlx != null &amp;&amp; khlx != &apos;&apos; &amp;&amp; DW_BINDID != null &amp;&amp; 
+DW_BINDID != &apos;&apos;) {
+    } 
+}
+</code></pre><h3 id="12"><a name="12" class="anchor-navigation-ex-anchor" href="#12"><i class="fa fa-link" aria-hidden="true"></i></a><a name="12" class="plugin-anchor" href="#12"><i class="fa fa-link" aria-hidden="true"></i></a>1.2</h3>
 
                                 
                                 </section>
@@ -286,7 +322,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.4 常见问题","level":"1.5","depth":1,"previous":{"title":"1.3 门户网站","level":"1.4","depth":1,"path":"13-men-hu-wang-zhan.md","ref":"13-men-hu-wang-zhan.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","expandable-chapters-small","anchors","anchor-navigation-ex","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"mnmdlx","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"mnmdlx","language":"zh-hans","gitbook":"3.2.3","description":"mnmdlx"},"file":{"path":"14-chang-jian-wen-ti.md","mtime":"2021-09-16T06:58:34.233Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-09-16T06:59:18.157Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.4 常见问题","level":"1.5","depth":1,"previous":{"title":"1.3 门户网站","level":"1.4","depth":1,"path":"13-men-hu-wang-zhan.md","ref":"13-men-hu-wang-zhan.md","articles":[]},"dir":"ltr"},"config":{"plugins":["splitter","expandable-chapters-small","anchors","anchor-navigation-ex","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"mnmdlx","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"mnmdlx","language":"zh-hans","gitbook":"3.2.3","description":"mnmdlx"},"file":{"path":"14-chang-jian-wen-ti.md","mtime":"2021-09-17T05:17:51.057Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-09-17T06:28:14.232Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
