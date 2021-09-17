@@ -4,6 +4,8 @@
     <list default="true" id="bc7207a3-9360-4e19-9088-7275768a99ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12-bpm/ji-jin-guan-li.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-bpm/ji-jin-guan-li.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-bpm/rong-zi-guan-li.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-bpm/rong-zi-guan-li.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-chang-jian-wen-ti.md" beforeDir="false" afterPath="$PROJECT_DIR$/14-chang-jian-wen-ti.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/11-gai-lan.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/12-bpm.html" beforeDir="false" />
@@ -157,7 +159,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
