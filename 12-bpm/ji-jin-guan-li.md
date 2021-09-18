@@ -15,7 +15,7 @@
 				* 增（Create）：数据导入
 					1. 历史数据导入
 					2. 新增数据导入
-		<img src="..\12-bpm\img\jjgm.jpg"/>
+<img src="..\12-bpm\img\jjgm.jpg"/>
 				* 删（Delete）：
 				* 改（Update）：
 					1. 基金规模数据变更进行更新；
