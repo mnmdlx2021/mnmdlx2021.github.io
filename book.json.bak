@@ -1,0 +1,28 @@
+{
+	"title": "mnmdlx",
+	"author": "mnmdlx",
+	"description": "mnmdlx",
+	"language": "zh-hans",
+	"gitbook": "3.2.3",
+	"structure": {
+	"readme": "README.md"
+},
+"plugins": [
+"splitter",
+"expandable-chapters-small",
+"anchors",
+"anchor-navigation-ex"
+],
+"pluginsConfig": {
+  "anchor-navigation-ex": {
+    "showLevel": false
+}
+},
+
+ {
+          "styles": {
+              "website": "styles/website.css"
+          }
+        }
+
+}
